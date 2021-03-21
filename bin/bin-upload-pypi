@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo $PWD
+cd $PWD/..
+echo $PWD
+#rm -rf ./dist/*
+python3 setup.py sdist bdist_wheel
+echo python3 setup.py sdist bdist_wheel
+twine upload dist/*
+echo twine upload dist/*

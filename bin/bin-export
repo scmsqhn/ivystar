@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo $PROJECT_PATH
+echo $SIGNATURE_FILE_PATH
+echo $BERT_MODEL_PATH
+echo $MONGO_PORT
+echo $MONGO_IP
+echo $SPIDER_LINK
+echo $SPIDER_SUCC
+echo $SPIDER_RESULT
+echo set envionment parameters
+export PROJECT_PATH=/home/zhic/ivystar
+export SIGNATURE_FILE_PATH=/home/zhiv/ivystar/src/utils
+export BERT_MODEL_PATH=/home/qin/release/model/chinese_L-12_H-768_A-12
+export MONGO_PORT=27017
+export MONGO_IP="172.19.0.10"
+export SPIDER_LINK="SPIDER_LINK"
+export SPIDER_SUCC="SPIDER_SUCC"
+export SPIDER_RESULT="SPIDER_RESULT"
+#pip3 install --upgrade ivystar
